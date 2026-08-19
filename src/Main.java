@@ -1,4 +1,4 @@
-package skypro;
+package skyprojava;
 
 import java.awt.*;
 import java.util.concurrent.SynchronousQueue;
