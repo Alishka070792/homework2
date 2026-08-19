@@ -59,20 +59,21 @@ var boxer1 = 78.2;
 var boxer2 = 82.7;
 var Boxers = boxer1 + boxer2;
 System.out.println(Boxers);
+        System.out.println(" ");
+
+        System.out.println("Task 7");
 System.out.println(boxer2 - boxer1);
 System.out.println(boxer2 % boxer1);
 System.out.println(" ");
 
-
-var liftingCapapcity = 50;
-var stuffWeight = 20;
-var capacityLeft = liftingCapapcity - stuffWeight;
-System.out.println("Еше можно положить вешей " + capacityLeft + " кг вещей. ");
-
-var applesWeight = 2;
-var orangesWeight = 3;
-var fruitsWeight = applesWeight + orangesWeight;
-System.out.println("Общий вес фруктов составляет " + fruitsWeight + " кг. ");
+System.out.println("Task 8");
+var totalWorkHours = 640;
+var hoursPerEmployee = 8;
+var totalEmployee = totalWorkHours / hoursPerEmployee;
+System.out.println("Всего работников в компании " + totalEmployee + " человек.");
+var totalEmployee2 = totalEmployee + 94;
+var totalWorkHours2 = hoursPerEmployee * totalEmployee2;
+System.out.println("Если в компании работает " + totalEmployee2 + " человек, то всего "+ totalWorkHours2 + " часов работы может быть поделено между сотрудниками.");
 
 
     }
